@@ -39,7 +39,7 @@ Honestly, it was difficult to find the best-looking plot from the FNG model. How
 **In contrast**, we had easy times with picking the best candidate from the **Closing Price model**. Like the previous model, we started looking at the result with 'w1_i1_b1'(I suppose you are now familiar with this notation).   
 ![CL_w1_i1_b1](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_w1_i1_b1.png)   
 
-As you can see the above, the plot shows relatively better performance than all of the FNG model. Now we tested 'w1_i10_b10' which returns us a plot as below.   
+As you can see the above, the plot shows relatively better performance than all of the FNG models. Now we tested 'w1_i10_b10' which returns us a plot as below.   
 
 ![CL_w1_i10_b10](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_w1_i10_b10.png)
 
