@@ -43,7 +43,7 @@ As you can see the above, the plot shows relatively better performance than all 
 
 ![CL_w1_i10_b10](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_w1_i10_b10.png)
 
-This is definitely better than before. Likewise, we have done a various trial and error only to get this best plot at 'w1_i30_b20' as below.
+This is definitely better than before. Likewise, we have done a various trial and error only to get this best plot at 'w1_i30_b20' as below.   
 ![CL_w1_i30_b20](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_best_w1_i30_b20.png)
 
 This incredible prediction plot has a loss of 0.00163, or putting it another way, almost reached 98.4% accuracy rate in prediction! 
