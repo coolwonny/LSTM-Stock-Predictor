@@ -55,10 +55,10 @@ Now we come to determine which model performs best in comparison to the other. T
 ![FNG Best](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/FNG_best_w1_i30_b20.png)   ![CL Best](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_best_w1_i30_b20.png)
 
 #### Which model has a lower loss?    
-> Closing Price model showed a lower loss at 0.00163098 than FNG model, which has the lowest loss at 0.07690528    
+> Closing Price model showed a lower loss at 0.00163098 than FNG model which has the lowest loss at 0.07690528    
 
 #### Which model tracks the actual values better over time?     
-> Closing Price model does. It tracks the actual values precisely while FNG model tracks it haphazardly.    
+> Closing Price model does. It tracks the actual values precisely while FNG model tracks them haphazardly.    
 
 #### Which window size works best for the model?   
 > According to the tests, the smaller window size the better. We got our best model at window size equals one.    
