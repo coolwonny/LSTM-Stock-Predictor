@@ -68,7 +68,7 @@ Now we come to determine which model performs best in comparison to the other. T
 In conclusion, we found that using Closing Price as both of the feature and the output gives us a lot better performance in predicting future closing prices of Bitcoin than using FNG index as a feature. This can be attributable to the characteristic of RNN-LSTM that feeds in the output of the previous time-data(or t-1) to train the model. Therefore, it is important to use the features and target in the same series of dataset to get the best result from the RNN-LSTM model. We demonstrated it by comparing the FNG model that differentiated the source of features(FNG values) and targets(Closing prices) to the Closing Price model that synchronized the sources within the same dataset(closing prices).
      
 
-You may refer to the Jupyter notebook files by clicking the file name below.
+You may refer to the Jupyter notebook files by clicking the file name below.    
 [lstm_stock_predictor_fng.ipynb](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/lstm_stock_predictor_fng.ipynb)    
 [lstm_stock_predictor_closing.ipynb](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/lstm_stock_predictor_closing.ipynb)
 
