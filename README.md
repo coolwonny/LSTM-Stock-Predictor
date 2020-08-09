@@ -50,7 +50,7 @@ This incredible prediction plot has a loss of 0.00163, or putting it another way
 
 ## Model Comparison
 
-Now we come to determine which model performs best in comparison to the other. This was truly the easiest part of the project by simply taking a look at the best plots from the models.    
+Now we come to determine which model performs best in comparison to the other. This was truly the easiest part of the project by simply taking a look at the best plot from each model.    
 
 ![FNG Best](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/FNG_best_w1_i30_b20.png)   ![CL Best](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_best_w1_i30_b20.png)
 
