@@ -22,7 +22,8 @@ For the **FNG model**, we started using all parameters set at one( `window = 1`,
 As shown in the plot, the performance looks not well enough. We now adjust the `number_units` or *number of inputs* to 30 while other parameters remain unchanged. Then we got this plot as below.    
 ![FNG_w1_i30_b1](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/FNG_w1_i30_b1.png) 
    
-Again, we are not satisfied with the result. Let's increase the window = 10, number of inputs = 10 and batch size = 1. Then, we come up with this flatter plot as below.
+Again, we are not satisfied with the result. Let's increase the window = 10, number of inputs = 10 and batch size = 1. Then, we come up with this flatter plot as below.   
+
 ![FNG_w10_i10_b1](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/FNG_w10_i10_b1.png)
 
 The plot became much flatter if we increased the number of input = 30 and batch size = 10 like the figure below.
@@ -38,7 +39,8 @@ Honestly, it was difficult to find the best-looking plot from the FNG model. How
 **In contrast**, we had easy times with picking the best candidate from the **Closing Price model**. Like the previous model, we started looking at the result with 'w1_i1_b1'(I suppose you are now familiar with this notation).   
 ![CL_w1_i1_b1](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_w1_i1_b1.png)   
 
-As you can see the above, the plot shows relatively better performance than all of the FNG model. Now we tested 'w1_i10_b10' which got us this plot as below.
+As you can see the above, the plot shows relatively better performance than all of the FNG model. Now we tested 'w1_i10_b10' which returns us a plot as below.   
+
 ![CL_w1_i10_b10](https://github.com/coolwonny/LSTM-Stock-Predictor/blob/master/Images/CL_w1_i10_b10.png)
 
 This is definitely better than before. Likewise, we have done a various trial and error only to get this best plot at 'w1_i30_b20' as below.
