@@ -1,6 +1,6 @@
 # LSTM Stock Predictor 
 
-In this project, we are going to build and evalueate deep learning models using the Recurrent Neural Network(RNN) to predict the closing prices of Bitcoin. Cryptocurrency tends to volatile due to its speculative nature so traders usually try to take advantage of every resources including sentiment from social media and news article in setting up trading strategies. There is an index called **Crypto Fear & Greed Index** or **(FNG)** that analyzes the current sentiment of the Bitcoin market and crunches the numbers into a simple meter from 0 to 100. Zero means "Extreme Fear", while 100 means "Extreme Greed". Will this index be a good indicator for predicting future closing prices of Bitcoin? 
+In this project, we are going to build and evaluate deep learning models using the Recurrent Neural Network(RNN) to predict the closing prices of Bitcoin. Cryptocurrency tends to volatile due to its speculative nature so traders usually try to take advantage of every resources including sentiment from social media and news article in setting up trading strategies. There is an index called **Crypto Fear & Greed Index** or **(FNG)** that analyzes the current sentiment of the Bitcoin market and crunches the numbers into a simple meter from 0 to 100. Zero means "Extreme Fear", while 100 means "Extreme Greed". Will this index be a good indicator for predicting future closing prices of Bitcoin? 
 
 ## Build models
 
